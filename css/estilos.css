@@ -93,11 +93,11 @@ body{
 }
 
 .form input[type="submit"]:hover {
-  background-color: #111;
+  background-color: #3b5;
   border-bottom: none;
   padding: 12px;
 }
 
 .form input[type="submit"]:focus {
-  background: #111;
+  background: #395;
 }
