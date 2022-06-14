@@ -22,7 +22,10 @@ if($filas){
 	include("index.html");
 	
 	?>
-	<h1 class="bad">ERROR EN LA AUTENTIFICACION</h1>
+	
+	<script type="text/javascript"> swal("Oops!", "¡Los datos de usuario o contraseña no son correctos!", "error");</script>
+	
+	
 	<?php
 }
 mysqli_free_result($resultado);

@@ -86,6 +86,7 @@ body{
 }
 
 .form input[type="submit"]{
+  
   color: #000;
   background-color: #3c5;
   border-bottom: none;
